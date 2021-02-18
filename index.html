@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="./scss/style.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="header">
+      <h1 class="title"> 
+        <span>
+
+          Learn to code by <br> watching others
+        </span>
+      </h1>
+      <p> 
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+      
+    </section>
+
+    <section class="forms">
+      <button class="subscription">
+        <p><span>Try it free
+          7 days</span> then <br>$20/mo. thereafter </p>
+      </button>
+      <article class="form">
+
+        <form >
+          <div>
+            <input type="text" name="firstName" id="firstname"  placeholder="First Name">
+            <p class="warning warning-firstname" id="warning"> First Name cannot be empty</p>
+          </div>
+          <div>
+            <input type="text" name="lastName" id="lastname" placeholder="Last Name">
+            <p class="warning warning-lastname"> Last Name cannot be empty</p>
+          </div>
+          <div>
+            <input type="text" name="email" id="email" placeholder="Email Address">
+            <p class="warning warning-email">Looks like thisis not an email</p>
+          </div>
+          <div>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <p class="warning warning-password"> Password cannot be empty </p>
+          </div>
+
+            <button type="submit" class="form-btn"><span id="btn-text">CLAIM YOUR FREE TRIAL</span></button>   
+            <p class="term">By clicking the button, you are agreeing to our
+              <span class="terms">Terms and Services</span>
+            </p>
+          </label>
+        </form>
+      </article>
+    </section>
+  </div>
+   <script src="index.js"></script>
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>

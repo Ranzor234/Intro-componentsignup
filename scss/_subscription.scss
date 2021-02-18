@@ -1,0 +1,13 @@
+.subscription {
+  width: 325px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: $Blue;
+  color: #f4f4f4;
+  box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.5);
+  p span {
+    font-weight: 600;
+    color: $gray;
+  }
+}
